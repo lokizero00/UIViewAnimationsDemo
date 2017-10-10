@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		124D87351F7E2EF400D21AC2 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124D87331F7E2EF400D21AC2 /* BasicViewController.swift */; };
+		124D87361F7E2EF400D21AC2 /* BasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124D87341F7E2EF400D21AC2 /* BasicViewController.xib */; };
+		126112711F8CB21E00D8EFFE /* TransViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1261126F1F8CB21E00D8EFFE /* TransViewController.swift */; };
+		126112721F8CB21E00D8EFFE /* TransViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126112701F8CB21E00D8EFFE /* TransViewController.xib */; };
 		12F16D9E1F739A61004B37D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F16D9D1F739A61004B37D3 /* AppDelegate.swift */; };
 		12F16DA01F739A61004B37D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F16D9F1F739A61004B37D3 /* ViewController.swift */; };
 		12F16DA31F739A61004B37D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F16DA11F739A61004B37D3 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		124D87331F7E2EF400D21AC2 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		124D87341F7E2EF400D21AC2 /* BasicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicViewController.xib; sourceTree = "<group>"; };
+		1261126F1F8CB21E00D8EFFE /* TransViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransViewController.swift; sourceTree = "<group>"; };
+		126112701F8CB21E00D8EFFE /* TransViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransViewController.xib; sourceTree = "<group>"; };
 		12F16D9A1F739A61004B37D3 /* UIViewAnimationsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewAnimationsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F16D9D1F739A61004B37D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12F16D9F1F739A61004B37D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 				12F16DA91F739A61004B37D3 /* LaunchScreen.storyboard */,
 				12F16DAC1F739A61004B37D3 /* Info.plist */,
 				12F16DA41F739A61004B37D3 /* UIViewAnimationsDemo.xcdatamodeld */,
+				124D87331F7E2EF400D21AC2 /* BasicViewController.swift */,
+				124D87341F7E2EF400D21AC2 /* BasicViewController.xib */,
+				1261126F1F8CB21E00D8EFFE /* TransViewController.swift */,
+				126112701F8CB21E00D8EFFE /* TransViewController.xib */,
 			);
 			path = UIViewAnimationsDemo;
 			sourceTree = "<group>";
@@ -129,6 +141,8 @@
 				12F16DAB1F739A61004B37D3 /* LaunchScreen.storyboard in Resources */,
 				12F16DA81F739A61004B37D3 /* Assets.xcassets in Resources */,
 				12F16DA31F739A61004B37D3 /* Main.storyboard in Resources */,
+				126112721F8CB21E00D8EFFE /* TransViewController.xib in Resources */,
+				124D87361F7E2EF400D21AC2 /* BasicViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				12F16DA61F739A61004B37D3 /* UIViewAnimationsDemo.xcdatamodeld in Sources */,
+				124D87351F7E2EF400D21AC2 /* BasicViewController.swift in Sources */,
+				126112711F8CB21E00D8EFFE /* TransViewController.swift in Sources */,
 				12F16DA01F739A61004B37D3 /* ViewController.swift in Sources */,
 				12F16D9E1F739A61004B37D3 /* AppDelegate.swift in Sources */,
 			);
